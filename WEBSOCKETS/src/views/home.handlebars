@@ -1,0 +1,35 @@
+  <head>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <div>
+    <h1>
+    Productos:
+    </h1>
+  <div>
+  <table class="table">
+  <thead class="head-table">
+    <tr>
+      <td>Title</td>
+      <td>Description</td>
+      <td>Price</td>
+      <td>Code</td>
+      <td>stock</td>
+    </tr>
+  </thead>
+<tbody>
+  {{#each products }}
+  <tr>
+    <td>{{this.title}}</td>
+    <td>{{this.description}}</td>
+    <td>{{this.price}}</td>
+    <td>{{this.code}}</td>
+    <td>{{this.stock}}</td>
+  </tr>
+  {{/each}}
+  </tbody>
+      </table>
+    </div>
+   <button > <a href="/realtimeproducts" style="color:rgb(77, 162, 182);">Cargar Productos</a></button>
+</div>
+
+

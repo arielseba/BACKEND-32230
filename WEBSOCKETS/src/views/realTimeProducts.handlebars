@@ -1,0 +1,42 @@
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+        <div>
+            <h1>Carga de Productos:</h1>
+            <div class="container-form">
+            <form action="">
+              <input id="input-title" placeholder="Titulo del Producto" type="text">
+                <input id="input-description" placeholder="Descripción del Producto" type="text">
+                <input id="input-price" placeholder="Precio de Producto"  type="text">
+                <input id="input-code" placeholder="Codigo de Producto" type="text">
+                <input id="input-stock" placeholder="Stock de Producto" type="text">
+
+                <div id="button-submit">Cargar producto</div>
+            </form>
+            </div>
+        </div>
+        <div>
+    <h1>
+    Productos:
+    </h1>
+    <div>
+      <table class="table">
+        <thead class="head-table">
+          <tr>
+          <td>Title</td>
+          <td>Description</td>
+          <td>Price</td>
+          <td>Code</td>
+          <td>stock</td>
+          <td>Acción</td>
+          </tr>
+        </thead>
+        <tbody id="container-table"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>

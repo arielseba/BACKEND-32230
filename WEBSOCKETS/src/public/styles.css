@@ -1,0 +1,73 @@
+
+body{
+     background-color: rgb(236, 232, 232);
+}
+
+.table{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: solid 1px rgb(209, 208, 208);
+    border-radius: 10px;
+}
+
+.head-table{
+    font-weight: bold;
+    background-color: rgb(235, 235, 235);
+}   
+
+td{
+    text-align: center;
+}
+
+.container-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 20%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+}
+
+#button-submit{
+    margin-top: 20px;
+    color: white;
+    border: solid 1px gray;
+    background-color: rgb(4, 190, 4);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#button-submit:hover {
+   background-color: rgb(2, 211, 2);
+}
+
+button{
+    margin-top: 20px;
+     color:white;
+       background-color: rgb(15, 254, 15);
+       border-radius: 5 px;
+}
+
+#link:hover {
+   background-color: rgb(2, 211, 2);
+}
+
+.delete{
+    cursor: pointer;
+    color:red
+}
+
+
